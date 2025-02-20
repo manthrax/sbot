@@ -87,7 +87,7 @@ scene.add(light1);
         let transformControls = this.transformControls = new TransformControls(camera,renderer.domElement);
         transformControls.translationSnap = 0.05;
         transformControls.rotationSnap = Math.PI / 16;
-        scene.add(transformControls);
+        //scene.add(transformControls);
         /*
         let gridmat = Environment.mkMat(0x404040)
         gridmat.transparent = true;
@@ -233,7 +233,7 @@ scene.add(light1);
             buttons: 0
         }
 
-        let groundProxy = new THREE.Mesh(new THREE.PlaneBufferGeometry(1000,1000))
+        let groundProxy = new THREE.Mesh(new THREE.PlaneGeometry(1000,1000))
         groundProxy.rotation.x = Math.PI * -.5
         groundProxy.updateMatrixWorld()
 
