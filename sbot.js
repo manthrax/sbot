@@ -75,7 +75,7 @@ document.addEventListener('init', (e)=>{
         let secs = ()=>performance.now() / 1000.
         let lastTime = secs()
 
-        let colSphere = new THREE.Mesh(new THREE.SphereBufferGeometry(.5,16,16),new THREE.MeshStandardMaterial({
+        let colSphere = new THREE.Mesh(new THREE.SphereGeometry(.5,16,16),new THREE.MeshStandardMaterial({
             color: 'red',
             metalness: .8,
             roughness: .1,
