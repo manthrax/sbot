@@ -115,7 +115,7 @@ class JointControls {
             map: tx
         })
 
-        this.root.add(this.widgetMesh = new THREE.Mesh(new THREE.CylinderBufferGeometry(rad,rad,height,32,10),frontMat));
+        this.root.add(this.widgetMesh = new THREE.Mesh(new THREE.CylinderGeometry(rad,rad,height,32,10),frontMat));
         this.widgetMesh.add(this.widgetBack = this.widgetMesh.clone());
         if (axis == 'x') {
             this.widgetMesh.rotation.z = Math.PI * -.5
