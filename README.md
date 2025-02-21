@@ -1,14 +1,26 @@
-Check it out here!
+### **🚀 Check it out!**  
+👉 [Live Demo](https://manthrax.github.io/sbot/)  
 
-https://manthrax.github.io/sbot/
+### **🕹️ Controls:**  
+- **Right Click / Left Click** → Activate joints & gripper  
+- **Number Keys (Top Row)** → Save/Load keyframes  
+  - **Shift + [1-9]** → Save the current pose to that key  
+  - **[1-9]** → Move the bot back to the saved keyframe  
 
-Right Click - Left Click on the various joints / gripper to activate them...
+![Robot Arm](https://github.com/user-attachments/assets/e147d631-163c-4099-beca-a8a1c8b2e0f8)  
 
-hitting Shift + Number Key  will save the current arm pose to that key.
+### **🏗️ Running Locally:**  
+1️⃣ Clone the repo  
+```sh
+git clone <repo-url>
+```
 
-The number key by itself will try to move the bot back to that key frame.
+2️⃣ Serve the folder using your preferred method (e.g., Live Server, Python, or Node.js)
+```sh
+# Example using npx:
+npx serve .
+```
 
-![image](https://github.com/user-attachments/assets/e147d631-163c-4099-beca-a8a1c8b2e0f8)
+3️⃣ Open index.html in your browser
 
-
-To run it locally, pull the repo and serve the folder/index.html using your method of choice.
+🚀 Enjoy exploring the robot arm! 🤖
